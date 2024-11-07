@@ -1,10 +1,10 @@
 # Retroductive Analysis
 Retroductive analysis of longitudinal data is based on a simple idea:
 if we have a set of chains of events associated with the same entity
-or object with a variable lifespan we can choose the most enduring survivalists
-first and use them as the top branches of the 'tree of life' comprised
+or object of a certain type with a variable lifespan we can choose the most enduring survivalists
+first and use them as the top 'leaves' of the 'tree of life' comprised
 of the 'life stories' of a population of these entities. Then we
-can step by step descend to the levels of the previous 'forks' and analyze what
+can step by step descend to the levels of previous 'forks' and analyze what
 happened to the survivalists who didn't make it to the main trunk, how
 did their 'life' end on each of the branches.
 
@@ -27,3 +27,9 @@ This 'tree of life' description of the game of survival clearly has a multi-scal
 property, - forks can be described by probability distributions for each
 of the branches as a whole which is a superposition of all distributions of
 the further sub-branches.
+
+## Terminology of the 'Game of Survival'.
+
+player(s) - players of this game of survival;
+
+lifespan - time interval between the 'birth' of a 'survivalist' and the end of his 'life';
