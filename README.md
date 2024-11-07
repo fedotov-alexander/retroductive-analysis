@@ -26,4 +26,4 @@ it will understand that you mean that this proposition can potentially be change
 This 'tree of life' description of the game of survival clearly has a multi-scale
 property, - forks can be described by probability distributions for each
 of the branches as a whole which is a superposition of all distributions of
-the further sub-branches.
+the further sub-branches..
