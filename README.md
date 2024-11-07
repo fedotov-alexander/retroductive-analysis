@@ -9,7 +9,7 @@ happened to the survivalists who didn't make it to the main trunk, how
 did their 'life' end on each of the branches.
 
 The main goal of this analysis is to produce enough 'decision-tree-like'
-examples for an Abstract Intelligence to reason about. Not only the
+examples for an Abstract Intelligence (AI) to reason about. Not only the
 examples must be statistically 'representative' of certain scenarios,
 they must be 'explainable' and 'understandable' in order to provide a
 meaningful text, associated with a particular example of longevity. In order to
