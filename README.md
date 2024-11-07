@@ -20,6 +20,8 @@ for the Abstract Intelligence to be able to reason about the factors
 defining longevity and to predict the potential longevity of a particular
 survivalist we need to provide it with sufficient number of _explained_ (at least hypothetically)
 'life stories' (longitudinal data) with unified descriptions of all the 'forks'.
+_A side note:_ The hypothesis can be marked for the AI just like that - 'Hypothesis:'
+it will understand that you mean that this proposition can potentially be changed.
 
 This 'tree of life' description of the game of survival clearly has a multi-scale
 property, - forks can be described by probability distributions for each
