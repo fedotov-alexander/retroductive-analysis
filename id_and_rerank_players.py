@@ -30,7 +30,7 @@ def rerank_and_anonymize_players():
 
     # Number the players.This number will be used as their id
     # in the rest of the analysis (for anonymisation of the players).
-    df = df.with_row_count('number', offset=1)
+    df = df.with_row_index('number', offset=1)
 
     # Select the columns with this number, all the ids and the lifespan
     # of the players (for ranking and segmentation on the id level).
