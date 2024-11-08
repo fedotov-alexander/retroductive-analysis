@@ -35,7 +35,8 @@ def get_players(list_of_players=None):
     # Join the ids dataframe with the players dataframe
     # on the 'number' column (with 1:1 match validation).
     combined = ids.join(players, on='number', how='inner', validate='1:1')
-    if len(list_of_players) > 0:
+    if (list_of_players is not None and
+            len(list_of_players) > 0):
         combined = combined.filter(pl.col('number').is_in(list_of_players))
 
     return combined
@@ -44,6 +45,7 @@ def get_players(list_of_players=None):
 if __name__ == '__main__':
     numbers_of_players = [1, 2, 3, 4, 5]
     # Get the players
-    players = get_players(list_of_players=numbers_of_players)
+    # players = get_players(list_of_players=numbers_of_players)
+    players = get_players()
     print(players.glimpse(return_as_string=True))
     ...
